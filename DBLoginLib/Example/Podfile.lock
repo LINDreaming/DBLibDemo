@@ -1,0 +1,33 @@
+PODS:
+  - DBBaseLib (0.1.0)
+  - DBLoginLib (0.1.0):
+    - DBBaseLib
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - DBBaseLib (from `../../DBBaseLib/DBBaseLib`)
+  - DBLoginLib (from `../`)
+  - FBSnapshotTestCase
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  DBBaseLib:
+    :path: "../../DBBaseLib/DBBaseLib"
+  DBLoginLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DBBaseLib: 3a33a5200df5c3a6368fe88e8dec7d7389f261b9
+  DBLoginLib: c45a64100c99c3d550ca729e7c5479439f04d3af
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: d0b2f058244499957b74cfd9ea2765e2c3ee4770
+
+COCOAPODS: 1.8.3

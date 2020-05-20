@@ -1,0 +1,14 @@
+use_frameworks!
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+
+target 'DBLoginLib_Example' do
+  pod 'DBLoginLib', :path => '../'
+  pod 'DBBaseLib', :path => '../../DBBaseLib/DBBaseLib'
+
+  target 'DBLoginLib_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end

@@ -1,0 +1,27 @@
+{
+  "name": "DBLoginLib",
+  "version": "0.1.0",
+  "summary": "A short description of DBLoginLib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/1477820229@qq.com/DBLoginLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "1477820229@qq.com": "linxi@data-baker.com"
+  },
+  "source": {
+    "git": "https://github.com/1477820229@qq.com/DBLoginLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "DBLoginLib/Classes/**/*",
+  "dependencies": {
+    "DBBaseLib": [
+
+    ]
+  }
+}

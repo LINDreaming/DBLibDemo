@@ -1,0 +1,6 @@
+framework module DBLoginLib {
+  umbrella header "DBLoginLib-umbrella.h"
+
+  export *
+  module * { export * }
+}
